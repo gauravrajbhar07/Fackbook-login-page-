@@ -1,0 +1,94 @@
+
+body{
+    height: inherit;
+    background-color: rgb(240, 242, 245);
+}
+.container{
+    margin-left: 33%;
+    margin-right: 33%;
+    text-align: center;
+    align-content: center;
+
+}
+.headline{
+    font-family: Helvetica , Arial,sans-serif , Lucida, Tahoma, Verdana;
+    margin: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.headline h2{
+    vertical-align: inherit;
+    color: #1877f2;
+    font-size: 40px;
+    
+}
+.headline p{
+    
+    font-size: 20px;    
+}
+form{
+    border-radius: 4px;
+    align-content: center;
+    width: 320px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2)
+}
+
+input[type='text'],
+input[type='password'],
+input[type='submit']
+{
+    padding: 5px;
+    border-radius: 4px;
+    height: 35px;
+    width: 90%;
+    border: 1px solid lightgray;
+    margin: 6px;
+}
+a .link{
+    color:  #1877f2;
+    font-size: small;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+input[type='submit']{
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #1877f2;
+    color: rgb(255, 255, 255);
+}
+input[type='text']{
+    margin-top: 12px;
+}
+hr{
+    width: 90%;
+    margin: 12px;
+    color: rgb(240, 242, 245);
+    
+}
+
+input[type='button']{
+    width: 60%;
+    padding: 12px;
+    margin-top: 12px;
+    margin-bottom: 16px;
+    background-color: #42b72a;
+    border: 0px solid #42b72a;
+    color: rgb(255, 255, 255);
+    border-radius: 4px;
+    
+
+}
+input[type='button']:hover{
+    cursor: pointer;
+}
+
+.footer{
+    margin: 0px;
+    background-color: rgb(255, 255, 255);
+
+    font-size: 13px;
+}
